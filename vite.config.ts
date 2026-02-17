@@ -8,7 +8,7 @@ export default defineConfig({
   // Set base to your repo name for GitHub Pages
   // Example: if your repo is 'my-portfolio', use base: '/my-portfolio/'
   // For root domain deployment, use base: '/'
-  base: '/Laxman-Mahto.github.io/',
+  base: './',
   build: {
     outDir: 'dist',
     sourcemap: false,
