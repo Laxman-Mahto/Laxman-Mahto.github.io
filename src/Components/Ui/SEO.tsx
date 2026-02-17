@@ -10,9 +10,9 @@ interface SEOProps {
 }
 
 const SEO: React.FC<SEOProps> = ({
-  title = "Daksh Sangwan",
-  description = "Full Stack Developer from Delhi, India. Building web applications with React, Node.js, and modern technologies.",
-  keywords = "Daksh Sangwan, Full Stack Developer, React, Node.js, Web Developer, Portfolio",
+  title = "Laxman Mahto",
+  description = "Full Stack and Front End Developer from Jaipur, India. Building web applications with React, Node.js, Java and modern technologies.",
+  keywords = "Laxman Mahto, Full Stack Developer, React, Node.js, Web Developer, Portfolio",
   image = "/PfLogo.png",
   url = SITE_URL,
 }) => {
@@ -26,13 +26,13 @@ const SEO: React.FC<SEOProps> = ({
     url: url,
     image: image,
     sameAs: [
-      "https://github.com/DaKSH18r",
-      "https://www.linkedin.com/in/daksh-sangwan-129783255",
-      "https://x.com/DaKSH18_",
+      "https://github.com/Laxman-Mahto",
+      "https://www.linkedin.com/in/laxman-mahto-496040319/",
+      "https://x.com/ilaxmanmahto",
     ],
     address: {
       "@type": "PostalAddress",
-      addressLocality: "New Delhi",
+      addressLocality: "Jaipur",
       addressCountry: "India",
     },
     knowsAbout: [
