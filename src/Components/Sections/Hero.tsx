@@ -53,7 +53,7 @@ const Hero: React.FC = () => {
         <div className="flex flex-row items-center justify-between gap-5">
           <div className="flex-1 space-y-2">
             <div className="text-[26px] sm:text-3xl font-bold leading-none font-inter text-gray-900 dark:text-white">
-              Hi, I'm Laxman Mahto 👋
+              Hi, I'm Laxman👋
             </div>
             <div className="font-[Poppins]">
               <h1 className="text-base sm:text-lg text-gray-700 dark:text-[#DBE6F0]">
@@ -85,7 +85,7 @@ const Hero: React.FC = () => {
             <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full overflow-hidden">
               <img
                 src="/PfLogo.png"
-                alt="Daksh Pfp"
+                alt="laxman Pfp"
                 className="w-full h-full object-cover rounded-full"
                 width="136"
                 height="136"
