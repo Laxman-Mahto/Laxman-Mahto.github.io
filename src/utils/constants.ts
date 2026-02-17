@@ -6,10 +6,10 @@ export const SOCIAL_LINKS = {
   linkedin: import.meta.env.VITE_LINKEDIN_URL || "https://www.linkedin.com/in/laxman-mahto-496040319/",
   twitter: import.meta.env.VITE_TWITTER_URL || "https://x.com/ilaxmanmahto",
   discord: import.meta.env.VITE_DISCORD_URL || "https://discord.com/users/aaluu_26",
-  instagram: import.meta.env.VITE_INSTAGRAM_URL || "https://www.instagram.com/daksh.sangwan?igs+fhdfh",
+  instagram: import.meta.env.VITE_INSTAGRAM_URL || "https://www.instagram.com/ilaxmanmahto_?igs+fhdfh",
 } as const;
 
 export const SITE_URL = import.meta.env.VITE_SITE_URL || "http://localhost:5173";
 
 // Location
-export const LOCATION = "New Delhi, India";
+export const LOCATION = "Jaipur, India";

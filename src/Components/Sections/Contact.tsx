@@ -285,14 +285,14 @@ const Contact: React.FC = () => {
                 Open to new opportunities, collaborations, and exciting
                 projects. Let's create something amazing together! Reach me at{" "}
                 <a
-                  href="mailto:dakshsgt69@gmail.com"
+                  href="mailto:laxmanmahto.cse@gmail.com"
                   onClick={(e) => {
                     e.stopPropagation();
-                    window.location.href = "mailto:dakshsgt69@gmail.com";
+                    window.location.href = "mailto:laxmanmahto.cse@gmail.com";
                   }}
                   className="text-teal-600 dark:text-teal-300 hover:text-teal-700 dark:hover:text-teal-200 transition-all font-medium hover:underline underline-offset-2 cursor-pointer"
                 >
-                  dakshsgt69@gmail.com
+                  laxmanmahto.cse@gmail.com
                 </a>
               </p>
             </div>
@@ -356,7 +356,7 @@ const Contact: React.FC = () => {
             className="pt-3 hidden lg:block"
           >
             <p className="text-sm text-gray-500 dark:text-gray-400 font-inter">
-              © 2026 Designed & Built by Daksh
+              © 2026 Designed & Built by Laxman
             </p>
           </motion.div>
         </div>
@@ -642,7 +642,7 @@ const Contact: React.FC = () => {
         className="pt-8 lg:hidden"
       >
         <p className="text-sm text-gray-500 dark:text-gray-400 font-inter text-center">
-          © 2026 Designed & Built by Laxman;
+          © 2026 Designed & Built by Laxman
         </p>
       </motion.div>
     </section>

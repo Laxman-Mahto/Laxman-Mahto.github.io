@@ -33,7 +33,7 @@ const Projects: React.FC = () => {
        // "Docker",
         "Js",
       ],
-      github: "https://github.com/Laxman-Mahto/Truecaller-Checki",
+      github: "https://github.com/Laxman-Mahto/Truecaller-Check.git",
       live: "https://laxman-mahto.github.io/Truecaller-Check/",
       image: "/project-1.png",
     },
