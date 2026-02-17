@@ -15,7 +15,7 @@ My personal developer portfolio built with React, TypeScript, and Vite.
 my-portfolio-vite/
 ├── public/               
 │   ├── PfLogo.png       
-│   ├── DakshResume.pdf  
+│   ├── LaxmanResume.pdf  
 │   └── ...
 ├── src/
 │   ├── Components/
