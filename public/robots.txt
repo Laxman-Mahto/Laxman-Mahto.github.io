@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://daksh18.tech/sitemap.xml
+
+# Block certain paths if needed
+# Disallow: /api/
+# Disallow: /admin/

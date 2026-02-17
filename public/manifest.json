@@ -1,0 +1,29 @@
+{
+  "name": "Daksh Sangwan - Full Stack Developer",
+  "short_name": "Daksh Portfolio",
+  "description": "Full Stack Developer from Delhi, India. Building web applications with React, Node.js, and modern technologies.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08090A",
+  "theme_color": "#14b8a6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/PfLogo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/PfLogo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["portfolio", "developer", "technology"],
+  "screenshots": [],
+  "scope": "/",
+  "lang": "en-US",
+  "dir": "ltr"
+}

@@ -1,0 +1,85 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --breakpoint-xs: 475px;
+}
+
+/* Global smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Smooth theme transitions */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+/* Disable transitions for motion-reduced users */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+.font-convergence {
+  font-family: "__Convergence_4d90af", sans-serif;
+  font-weight: 600;
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+.font-incon {
+  font-family: "Inconsolata", monospace;
+}
+.font-figtree {
+  font-family: "Figtree", sans-serif;
+}
+:root {
+  --background: 0 0% 100%;
+  --foreground: 0 0% 3.9%;
+  --border: 0 0% 89.8%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 3.9%;
+  --muted: 0 0% 96%;
+  --muted-foreground: 0 0% 45%;
+  --accent: 0 0% 96%;
+  --accent-foreground: 0 0% 9%;
+}
+
+.dark {
+  --background: 0 0% 3.9%;
+  --foreground: 0 0% 98%;
+  --border: 0 0% 14.9%;
+  --popover: 0 0% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --muted: 0 0% 14.9%;
+  --muted-foreground: 0 0% 63.9%;
+  --accent: 0 0% 14.9%;
+  --accent-foreground: 0 0% 98%;
+}
+
+.bg-background {
+  background-color: hsl(var(--background));
+}
+
+.bg-border {
+  background-color: hsl(var(--border));
+}
+
+.bg-popover {
+  background-color: hsl(var(--popover));
+}
+
+.text-popover-foreground {
+  color: hsl(var(--popover-foreground));
+}
+
+.border {
+  border: 1px solid hsl(var(--border));
+}
