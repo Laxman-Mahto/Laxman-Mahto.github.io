@@ -101,7 +101,7 @@ const Hero: React.FC = () => {
         {/* Left side - Text content */}
         <div className="w-1/2 space-y-4 lg:space-y-6">
           <div className="text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight font-inter whitespace-nowrap text-gray-900 dark:text-white">
-            Hi, I'm Laxman Mahto 👋
+            Hi, I'm Laxman👋
           </div>
 
           <div className="font-[Poppins]">
