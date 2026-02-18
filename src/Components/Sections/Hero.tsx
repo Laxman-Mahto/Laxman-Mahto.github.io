@@ -136,7 +136,7 @@ const Hero: React.FC = () => {
           <div className="w-32 h-32 lg:w-34 lg:h-34 rounded-full overflow-hidden">
             <img
               src="/PfLogo.png"
-              alt="Daksh Pfp"
+              alt="Laxman Pfp"
               className="w-full h-full object-cover rounded-full"
               width="136"
               height="136"

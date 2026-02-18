@@ -27,10 +27,6 @@ const Projects: React.FC = () => {
       technologies: [
         "CSS",
         "Html",
-        //"FastAPI",
-        //"PostgreSQL",
-       // "Gemini API",
-       // "Docker",
         "Js",
       ],
       github: "https://github.com/Laxman-Mahto/Truecaller-Check.git",

@@ -21,7 +21,7 @@ const SEO: React.FC<SEOProps> = ({
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Daksh Sangwan",
-    jobTitle: "Full Stack Developer",
+    jobTitle: "Web Application Developer",
     description: description,
     url: url,
     image: image,

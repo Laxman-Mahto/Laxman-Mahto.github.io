@@ -79,6 +79,39 @@ const About: React.FC = () => {
             Open to new opportunities and collaborations
           </span>
         </button>
+
+        {/* Resume Download Button */}
+  <a  
+  href="/Laxman(Resume).pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center justify-center gap-2 sm:gap-3 rounded-xl 
+             border border-gray-200 dark:border-white/10 
+             bg-gray-50 dark:bg-white/5 
+             px-3 sm:px-4 py-2 text-xs sm:text-sm 
+             text-gray-700 dark:text-gray-200 
+             hover:bg-gray-100 dark:hover:bg-white/10 
+             transition-colors"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    className="w-4 h-4"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    strokeWidth={2}
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+    />
+  </svg>
+  <span className="whitespace-nowrap">Download Resume</span>
+</a>
+
+
+        
       </div>
     </motion.section>
   );
