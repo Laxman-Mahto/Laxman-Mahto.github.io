@@ -84,8 +84,8 @@ const Hero: React.FC = () => {
           <div className="flex-shrink-0">
             <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full overflow-hidden">
               <img
-                src="/PfLogo.png"
-                alt="laxman Pfp"
+                src="/laxman-photo.jpg"
+                alt="Laxman Pfp"
                 className="w-full h-full object-cover rounded-full"
                 width="136"
                 height="136"
@@ -135,8 +135,8 @@ const Hero: React.FC = () => {
         <div className="w-1/2 flex justify-end">
           <div className="w-32 h-32 lg:w-34 lg:h-34 rounded-full overflow-hidden">
             <img
-              src="/PfLogo.png"
-              alt="Laxman Pfp"
+              src="/laxman-photo.jpg"
+              alt="Laxman pfp"
               className="w-full h-full object-cover rounded-full"
               width="136"
               height="136"

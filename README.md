@@ -1,7 +1,7 @@
-# 🌟 Laxman Mahto - Developer Portfolio
+# 🌟 Laxman Mahto - Portfolio
  https://laxman-mahto.github.io/
 
-My personal developer portfolio built with React, TypeScript, and Vite.
+My personal portfolio built with React, TypeScript, and Vite.
 
 ![Portfolio Preview](https://img.shields.io/badge/Status-Production%20Ready-success)
 ![License](https://img.shields.io/badge/License-MIT-blue)
