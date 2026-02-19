@@ -44,6 +44,7 @@ const Navbar: React.FC = () => {
   // Handler functions for better code organization
   const handleNavigation = (path: string) => {
     navigate(path);
+     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleSocialClick = (url: string) => {

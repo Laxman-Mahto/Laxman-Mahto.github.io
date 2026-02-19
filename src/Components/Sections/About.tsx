@@ -83,7 +83,7 @@ const About: React.FC = () => {
         {/* Resume Download Button */}
   <a  
   href="/Laxman(Resume)3.pdf"
-  target="_blank"
+   download="Laxman_Mahto_Resume.pdf"
   rel="noopener noreferrer"
   className="inline-flex items-center justify-center gap-2 sm:gap-3 rounded-xl 
              border border-gray-200 dark:border-white/10 
