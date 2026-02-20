@@ -1,4 +1,4 @@
-import{r as K,g as U,j as e,m as Y}from"./index-D3fBWHJ4.js";var y={},S;function F(){if(S)return y;S=1;function l(a){if(typeof window>"u")return;const m=document.createElement("style");return m.setAttribute("type","text/css"),m.innerHTML=a,document.head.appendChild(m),a}Object.defineProperty(y,"__esModule",{value:!0});var t=K();function H(a){return a&&typeof a=="object"&&"default"in a?a:{default:a}}var s=H(t);l(`.rfm-marquee-container {
+import{r as K,g as U,j as e,m as Y}from"./index-Dq8Ga7vc.js";var y={},S;function F(){if(S)return y;S=1;function l(a){if(typeof window>"u")return;const m=document.createElement("style");return m.setAttribute("type","text/css"),m.innerHTML=a,document.head.appendChild(m),a}Object.defineProperty(y,"__esModule",{value:!0});var t=K();function H(a){return a&&typeof a=="object"&&"default"in a?a:{default:a}}var s=H(t);l(`.rfm-marquee-container {
   overflow-x: hidden;
   display: flex;
   flex-direction: row;
