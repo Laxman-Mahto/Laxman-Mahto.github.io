@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { SOCIAL_LINKS } from "../../utils/constants";
+import { EMAILJS_CONFIG } from "../../utils/constants";
 import { isEmailJSConfigured } from "../../utils/validateEnv";
 import {
   Tooltip,
@@ -152,9 +153,10 @@ const Contact: React.FC = () => {
       };
 
       // EmailJS credentials from environment variables
-      const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-      const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-      const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+      // EmailJS credentials from environment variables
+      const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID || EMAILJS_CONFIG.SERVICE_ID;
+      const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || EMAILJS_CONFIG.TEMPLATE_ID;
+      const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || EMAILJS_CONFIG.PUBLIC_KEY;
 
       // Validate credentials are set
       if (!SERVICE_ID || !TEMPLATE_ID || !PUBLIC_KEY) {

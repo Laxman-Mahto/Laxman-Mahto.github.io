@@ -1,3 +1,10 @@
+// EmailJS Configuration
+export const EMAILJS_CONFIG = {
+  SERVICE_ID: "service_itqks8p",
+  TEMPLATE_ID: "template_higelz7",
+  PUBLIC_KEY: "Rsik-4ppGdYpVeX4b"
+} as const;
+
 // Time intervals
 export const CLOCK_UPDATE_INTERVAL = 1000; // 1 second in milliseconds
 
