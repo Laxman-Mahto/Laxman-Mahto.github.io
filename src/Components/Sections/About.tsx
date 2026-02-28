@@ -22,7 +22,7 @@ const About: React.FC = () => {
 
         <div className="mt-2 space-y-3 text-xs text-gray-600 dark:text-[#A3A3A3] md:text-sm leading-relaxed">
           <p>
-            Hello! I'm Laxman, a Computer Science student from{" "}
+            Hello! I'm Laxman, a Second   Year Computer Science student from{" "}
             <span className="font-medium text-gray-900 dark:text-white">
               UEM Jaipur
             </span>
@@ -48,7 +48,7 @@ const About: React.FC = () => {
             <p>
               While maintaining a{" "}
               <span className="font-bold text-teal-600 dark:text-teal-300">
-                9.0 CGPA
+                8.0+ CGPA
               </span>
               , I manage a night canteen operation serving{" "}
               <span className="font-bold text-teal-600 dark:text-teal-300">
