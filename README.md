@@ -76,7 +76,7 @@ portfolio/
 
 ## 💼 About Me
 
-Computer Science student at UEM Jaipur with a passion for building full-stack applications. While maintaining a 9.0 CGPA, I manage a night canteen operation serving 800+ students, combining technical skills with real-world business experience.
+Computer Science student at UEM Jaipur with a passion for building full-stack applications. While maintaining a 8.0 CGPA, I manage a night canteen operation serving 800+ students, combining technical skills with real-world business experience.
 
 **Skills:** Java, React, Node.js, TypeScript, Tailwind CSS
 
