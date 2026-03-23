@@ -54,9 +54,9 @@ const About: React.FC = () => {
               <span className="font-bold text-teal-600 dark:text-teal-300">
                 800+ students
               </span>{" "}
-              and faculty with approx{" "}
+              and faculty{" "}
               <span className="font-bold text-teal-600 dark:text-teal-300">
-                ₹10L+ annual revenue
+        
               </span>
               . This experience developed my skills in operations management, 
               vendor relationships, supply chain coordination, and customer service at scale.
