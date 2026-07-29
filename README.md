@@ -84,7 +84,7 @@ Computer Science student at UEM Jaipur with a passion for building full-stack ap
 
 ## 📧 Contact
 
-- **Email:** [your-email@gmail.com](mailto:laxmanmahto.cse@gmail.com)
+- **Email:** [laxmanmahto.cse@gmail.com](mailto:laxmanmahto.cse@gmail.com)
 - **LinkedIn:** [linkedin.com/in/laxman-mahto](https://linkedin.com/in/laxman-mahto-496040319/)
 - **GitHub:** [github.com/Laxman-Mahto](https://github.com/Laxman-Mahto)
 - **Twitter:** [@ilaxmanmahto](https://x.com/ilaxmanmahto)
