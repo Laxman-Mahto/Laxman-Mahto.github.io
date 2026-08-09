@@ -34,14 +34,18 @@ const Projects: React.FC = () => {
       image: "/project-1.png",
     },
     {
-      title: "Coming Soon",
-      description: "Coming Soon",
-      technologies: ["React", "Node.js", "MongoDB"],
+      title: "ClassGuard",
+      description: "A real-time exam monitoring platform for in-class, paper-based tests — detects tab switches, split-screen, and app-switching live, so teachers always know what's happening across the room.",
+      technologies: ["React", "Vite", "Supabase", "TailwindCSS"],
+      github: "https://github.com/Laxman-Mahto/ClassGuard.git",
+      live: "https://class-guard-five.vercel.app/",
+      image: "/project-2.png",
     },
     {
       title: "Coming Soon",
       description: "Coming Soon",
       technologies: ["Next.js", "TypeScript", "Prisma"],
+      image: "/project-3.png",
     },
     {
       title: "Coming Soon",
