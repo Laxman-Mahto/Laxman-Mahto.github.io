@@ -21,16 +21,20 @@ const Projects: React.FC = () => {
 
   const projects: Project[] = [
     {
-      title: "Truecaller-Check",
+      title: "Knee OA Severity Classification",
       description:
-        "The Phone Number Info Detector is a simple application designed to analyze and extract useful details from phone numbers.",
+        "A deep learning research project for five-class knee osteoarthritis severity grading from X-ray images using a custom multi-scale attention-residual CNN with CBAM, imbalance-aware training, ensemble inference, and TTA.",
       technologies: [
-        "CSS",
-        "Html",
-        "Js",
+        "PyTorch",
+        "Python",
+        "Deep Learning",
+        "Computer Vision",
+        "CBAM",
+        "CNN",
+        "ResNet"
       ],
-      github: "https://github.com/Laxman-Mahto/Truecaller-Check.git",
-      live: "https://laxman-mahto.github.io/Truecaller-Check/",
+      github: "Private",
+      live: "Soon",
       image: "/project-1.png",
     },
     {

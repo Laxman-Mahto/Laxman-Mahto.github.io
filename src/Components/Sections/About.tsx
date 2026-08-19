@@ -21,7 +21,7 @@ const About: React.FC = () => {
         </h2>
 
         <div className="mt-2 space-y-3 text-xs text-gray-600 dark:text-[#A3A3A3] md:text-sm leading-relaxed">
-          <p>
+          {/*<p>
             Hello! I'm Laxman, a Third Year Computer Science student from{" "}
             <span className="font-medium text-gray-900 dark:text-white">
               UEM Jaipur
@@ -39,7 +39,46 @@ const About: React.FC = () => {
               Node.js
             </span>
             , taking ideas from concept to finished product.
-          </p>
+          </p> */}
+          <p>
+              Hello! I'm Laxman, a Third Year Computer Science student at{" "}
+              <span className="font-medium text-gray-900 dark:text-white">
+                UEM Jaipur
+              </span>
+              . I build{" "}
+              <span className="font-bold text-teal-600 dark:text-teal-300">
+                full-stack applications
+              </span>{" "}
+              using{" "}
+              <span className="font-bold text-teal-600 dark:text-teal-300">
+                Java
+              </span>
+              ,{" "}
+              <span className="font-bold text-teal-600 dark:text-teal-300">
+                React
+              </span>
+              , and{" "}
+              <span className="font-bold text-teal-600 dark:text-teal-300">
+                Node.js
+              </span>
+              , while exploring{" "}
+              <span className="font-bold text-teal-600 dark:text-teal-300">
+                AI/ML
+              </span>
+              ,{" "}
+              <span className="font-bold text-teal-600 dark:text-teal-300">
+                Deep Learning
+              </span>
+              , and{" "}
+              <span className="font-bold text-teal-600 dark:text-teal-300">
+                Computer Vision
+              </span>
+              . I enjoy turning ideas into{" "}
+              <span className="font-medium text-gray-900 dark:text-white">
+                practical, working solutions
+              </span>{" "}
+              and continuously learning through real-world projects.
+            </p>
 
           <div className="pt-2">
             <h3 className="text-sm font-semibold text-gray-900 dark:text-white mb-2">
