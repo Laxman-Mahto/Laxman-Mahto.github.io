@@ -28,20 +28,23 @@ export const projects: Project[] = [
   {
     title: "ClassGuard",
     description: "A real-time exam monitoring platform for in-class, paper-based tests — detects tab switches, split-screen, and app-switching live, so teachers always know what's happening across the room.",
-    technologies: ["React", "Vite", "Supabase", "TailwindCSS"],
+    technologies: ["Javascript","React", "Vite", "Supabase", "TailwindCSS"],
     github: "https://github.com/Laxman-Mahto/ClassGuard.git",
     live: "https://class-guard-five.vercel.app/",
     image: "/project-2.png",
   },
-  {
-    title: "Coming Soon",
-    description: "Coming Soon",
-    technologies: ["Next.js", "TypeScript", "Prisma"],
+    {
+    title: "InternPulse",
+    description: "An enterprise-grade B2B SaaS platform for colleges and corporate HR to manage, track, and verify student internships. Features custom dual-portals, real-time analytics, automated SMTP email verifications, and dynamically generated Proof of Work certificates.",
+    technologies: [
+      "Next.js", 
+      "TypeScript", 
+      "TailwindCSS", 
+      "Prisma", 
+      "Supabase"
+    ],
+    github: "https://github.com/Laxman-Mahto/InternPulse",
+    live: "https://intern-pulse-bay.vercel.app/",
     image: "/project-3.png",
-  },
-  {
-    title: "Coming Soon",
-    description: "Coming Soon",
-    technologies: ["React", "Express", "PostgreSQL"],
   },
 ];

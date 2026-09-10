@@ -82,7 +82,7 @@ const About: React.FC = () => {
 
           <div className="pt-2">
             <h3 className="text-sm font-semibold text-gray-900 dark:text-white mb-2">
-              Beyond Code: Entrepreneurial Experience
+              Beyond Code: Entrepreneurial Experience (2012-Present)
             </h3>
             <p>
               While maintaining a{" "}
@@ -91,7 +91,7 @@ const About: React.FC = () => {
               </span>
               , I manage a night canteen operation serving{" "}
               <span className="font-bold text-teal-600 dark:text-teal-300">
-                800+ students
+                1500+ students
               </span>{" "}
               and faculty{" "}
               <span className="font-bold text-teal-600 dark:text-teal-300">
