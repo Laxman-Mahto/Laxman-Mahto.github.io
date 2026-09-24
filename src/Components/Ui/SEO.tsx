@@ -20,8 +20,8 @@ const SEO: React.FC<SEOProps> = ({
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Person",
-    name: "Daksh Sangwan",
-    jobTitle: "Web Application Developer",
+    name: "Laxman Mahto",
+    jobTitle: "WebBbbbbbB Application Developer",
     description: description,
     url: url,
     image: image,

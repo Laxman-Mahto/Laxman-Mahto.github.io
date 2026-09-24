@@ -21,8 +21,8 @@ export const projects: Project[] = [
       "CNN",
       "ResNet"
     ],
-    github: "Private",
-    live: "Soon",
+    github: "Private repo",
+    live: "Comming Soon",
     image: "/project-1.png",
   },
   {

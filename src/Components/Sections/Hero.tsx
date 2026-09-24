@@ -64,10 +64,10 @@ const Hero: React.FC = () => {
                   <span className="text-gray-900 dark:text-white">
                     <Typewriter
                       words={[
-                        "Coder.",
                         "Developer.",
                         "Full Stack Developer.",
-                        "Front End Developer.",
+                        "AI/ML Enthusiast.",
+                        "Deep Learning Explorer.",
                       ]}
                       loop={0}
                       cursor
@@ -86,7 +86,7 @@ const Hero: React.FC = () => {
               <img
                 src="/laxman-photo.jpg"
                 alt="Laxman Pfp"
-                className="w-full h-full object-cover rounded-full"
+                className="w-full h-full object-cover rounded-full scale-110 object-[center_20%]"
                 width="136"
                 height="136"
                 loading="eager"
@@ -113,10 +113,10 @@ const Hero: React.FC = () => {
                 <span className="text-gray-900 dark:text-white whitespace-nowrap">
                   <Typewriter
                     words={[
-                      "Coder.",
                       "Developer.",
                       "Full Stack Developer.",
-                      "Front End Developer.",
+                      "AI/ML Enthusiast.",
+                      "Deep Learning Explorer.",
                     ]}
                     loop={0}
                     cursor
@@ -137,7 +137,7 @@ const Hero: React.FC = () => {
             <img
               src="/laxman-photo.jpg"
               alt="Laxman pfp"
-              className="w-full h-full object-cover rounded-full"
+              className="w-full h-full object-cover rounded-full scale-110 object-[center_20%]"
               width="136"
               height="136"
               loading="eager"
