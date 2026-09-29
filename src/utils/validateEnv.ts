@@ -17,7 +17,7 @@ interface EnvConfig {
   VITE_LINKEDIN_URL?: string;
   VITE_TWITTER_URL?: string;
   VITE_DISCORD_URL?: string;
-  VITE_INSTAGRAM_URL?: string;
+  VITE_YOUTUBE_URL?: string;
 }
 
 const requiredEnvVars: Array<keyof EnvConfig> = [
@@ -32,7 +32,7 @@ const optionalEnvVars: Array<keyof EnvConfig> = [
   "VITE_LINKEDIN_URL",
   "VITE_TWITTER_URL",
   "VITE_DISCORD_URL",
-  "VITE_INSTAGRAM_URL",
+  "VITE_YOUTUBE_URL",
 ];
 
 export const validateEnvironmentVariables = (): void => {
