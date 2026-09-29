@@ -9,6 +9,7 @@ import { Skeleton } from "../Components/Ui/Skeleton";
 // Lazy load heavy components with icons
 const TechStack = lazy(() => import("../Components/Sections/TechStack"));
 const Projects = lazy(() => import("../Components/Sections/Projects"));
+const CurrentlyBuilding = lazy(() => import("../Components/Sections/CurrentlyBuilding"));
 
 // Loading fallback for lazy components
 const SectionSkeleton = () => (
@@ -31,6 +32,9 @@ const Home: React.FC = () => {
       </Suspense>
       <Suspense fallback={<SectionSkeleton />}>
         <Projects />
+      </Suspense>
+      <Suspense fallback={<SectionSkeleton />}>
+        <CurrentlyBuilding />
       </Suspense>
       <Contact />
     </div>
