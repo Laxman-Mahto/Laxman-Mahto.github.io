@@ -35,7 +35,9 @@ const YouTubeCard: React.FC = () => {
   useEffect(() => {
     const fetchYouTube = async () => {
       try {
-        const res = await fetch("https://api.rss2json.com/v1/api.json?rss_url=https://www.youtube.com/feeds/videos.xml?channel_id=UCgogIv4w00RwDnt9mVM5-cw");
+        // Adding a timestamp parameter to bust rss2json's cache
+        const cacheBuster = Math.floor(Date.now() / (1000 * 60 * 60)); // Changes every hour
+        const res = await fetch(`https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3DUCgogIv4w00RwDnt9mVM5-cw%26t%3D${cacheBuster}`);
         if (!res.ok) throw new Error("Failed to fetch YouTube feed");
         const data = await res.json();
         if (data.items && data.items.length > 0) {
@@ -47,10 +49,10 @@ const YouTubeCard: React.FC = () => {
         console.error("YouTube Fetch Error:", err);
         // Fallback to manual video if API fails
         setVideo({
-          title: "Day 2 | LeetCode 2267 | Java Solution & Explanation",
-          link: "https://www.youtube.com/@buildwlaxman",
-          thumbnail: "https://github.com/Laxman-Mahto.png",
-          pubDate: new Date(Date.now() - 8 * 3600 * 1000).toISOString()
+          title: "Day 3 | LeetCode 1111 | Java Solution & Explanation",
+          link: "https://www.youtube.com/watch?v=qi_AuJnOODg",
+          thumbnail: "https://i2.ytimg.com/vi/qi_AuJnOODg/hqdefault.jpg",
+          pubDate: new Date(Date.now() - 2 * 3600 * 1000).toISOString()
         });
       } finally {
         setLoading(false);
