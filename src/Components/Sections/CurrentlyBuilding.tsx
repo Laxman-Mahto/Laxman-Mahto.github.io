@@ -31,7 +31,6 @@ interface YouTubeVideo {
 const YouTubeCard: React.FC = () => {
   const [video, setVideo] = useState<YouTubeVideo | null>(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(false);
 
   useEffect(() => {
     const fetchYouTube = async () => {
@@ -60,7 +59,7 @@ const YouTubeCard: React.FC = () => {
     fetchYouTube();
   }, []);
 
-  if (error) return null;
+
   if (loading) {
     return (
       <div className="animate-pulse rounded-xl border border-gray-200 dark:border-white/10 bg-gray-50 dark:bg-white/5 h-28 w-full" />
@@ -116,7 +115,6 @@ const LeetCodeCard: React.FC = () => {
   const [stats, setStats] = useState<LeetCodeStats | null>(null);
   const [recent, setRecent] = useState<LeetCodeRecent | null>(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(false);
 
   useEffect(() => {
     const fetchLeetCode = async () => {
@@ -179,7 +177,7 @@ const LeetCodeCard: React.FC = () => {
     fetchLeetCode();
   }, []);
 
-  if (error) return null;
+
   if (loading) {
     return (
       <div className="animate-pulse rounded-xl border border-gray-200 dark:border-white/10 bg-gray-50 dark:bg-white/5 h-28 w-full" />
