@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 // --- Helper Functions ---
 const timeAgo = (dateString: string | number): string => {
-  const date = typeof dateString === 'number' ? new Date(dateString * 1000) : new Date(dateString);
+  const date = typeof dateString === 'number' ? new Date(dateString * 1000) : new Date(dateString.replace(' ', 'T') + 'Z');
   const now = new Date();
   const seconds = Math.floor((now.getTime() - date.getTime()) / 1000);
 
